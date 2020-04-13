@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "mono:pixelsize=34:antialias=true:autohint=true";
+static char *font2[] = { "JoyPixels:pixelsize=30:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -91,32 +91,31 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.92;
+float alpha = 0.70;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	"#3B4252", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#BF616A", //1
+	"#A3BE8C", //2
+	"#EBCB8B", //3
+	"#81A1C1", //4
+	"#AF88C2", //5
+	"#1793D1", //6
+	"#E5E9F0", //7
+	"#4C566A", //8
+	"#BF616A", //9
+	"#A3BE8C", //10
+	"#EBCB8B", //11
+	"#81A1C1", //12
+	"#AF88C2", //13
+	"#8FBCBB", //14
+	"#ECEFF4", //15
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	"#2C3E50",   /* 256 -> bg */
+	"#FE80AB",   /* 257 -> fg */
+	"#FE80AB", /* 258 -> cursor */
 };
 
 
@@ -124,10 +123,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 259;
-unsigned int defaultbg = 258;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+unsigned int defaultfg = 257;
+unsigned int defaultbg = 256;
+static unsigned int defaultcs = 258;
+static unsigned int defaultrcs = 0;
 
 /*
  * Default shape of cursor
