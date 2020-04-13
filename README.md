@@ -1,4 +1,4 @@
-# Luke's build of st - the simple (suckless) terminal
+# Goldcoders's build of st - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional features that make it literally the best terminal emulator ever:
 
@@ -14,13 +14,14 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 + OR **vim-bindings**: scroll up/down in history with `alt-k` and `alt-j`. Faster with `alt-u`/`alt-d`.
 + **zoom/change font size**: same bindings as above, but holding down shift as well. `alt-home` returns to default
 + **copy text** with `alt-c`, **paste** is `alt-v` or `shift-insert`
++ **kbd_select** with `alt+s`, press `s` to activate then use `hjkl` to move , `/` to search, confirm select with `enter`
 
 ## Pretty stuff
 
 + Compatibility with `Xresources` and `pywal` for dynamic colors. The `Xdefaults` file shows a usage example.
 + Default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise.
 + Transparency/alpha, which is also adjustable from your `Xresources`.
-+ Default font is system "mono" at 14pt, meaning the font will match your system font.
++ Default font is system "mono" at 16pt, meaning the font will match your system font.
 
 ## Other st patches
 
@@ -28,16 +29,14 @@ The [suckless terminal (st)](https://st.suckless.org/) with some additional feat
 + Scrollback
 + font2
 + updated to latest version 0.8.2
-
++ added keyboard select
 ## Installation for newbs
 
 ```
-git clone https://github.com/LukeSmithxyz/st
+git clone https://github.com/goldcoders/st
 cd st
 sudo make install
 ```
-
-Users of Arch-based distros can also install it from the AUR as [st-luke-git](https://aur.archlinux.org/packages/st-luke-git/).
 
 Obviously, `make` is required to build. `fontconfig` is required for the default build, since it asks `fontconfig` for your system monospace font.  It might be obvious, but `libX11` and `libXft` are required as well. Chances are, you have all of this installed already.
 
@@ -78,5 +77,5 @@ Note that some special characters may appear truncated if too wide. You might wa
 
 ## Contact
 
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
+- GoldCoders <goldcodersclub@gmail.com>
+- [https://goldcoders.online](https://goldcoders.online)
