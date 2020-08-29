@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode Nerd Font:pixelsize=24:antialias=true:autohint=true";
+static char *font = "monospace:pixelsize=24:antialias=true:autohint=true";
 static char *font2[] = { "JoyPixels:pixelsize=20:antialias=true:autohint=true" };
 static int borderpx = 2;
 
@@ -91,7 +91,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.75;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -99,12 +99,12 @@ static const char *colorname[] = {
 	"#BF616A", //1
 	"#A3BE8C", //2
 	"#EBCB8B", //3
-	"#81A1C1", //4
-	"#AF88C2", //5
+	"#9F97CA", //4
+	"#E58CD7", //5
 	"#1793D1", //6
-	"#E5E9F0", //7
+	"#F49C7A", //7
 	"#4C566A", //8
-	"#BF616A", //9
+	"#FF5792", //9
 	"#A3BE8C", //10
 	"#EBCB8B", //11
 	"#81A1C1", //12
@@ -114,8 +114,8 @@ static const char *colorname[] = {
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#2C3E50",   /* 256 -> bg */
-	"#FE80AB",   /* 257 -> fg */
-	"#FE80AB", /* 258 -> cursor */
+	"#FF5792",   /* 257 -> fg */
+	"#FF5792", /* 258 -> cursor */
 };
 
 
