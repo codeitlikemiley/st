@@ -1,5 +1,8 @@
 # Goldcoders's build of st - the simple (suckless) terminal
 
+![pic-full-200619-0625-37](https://user-images.githubusercontent.com/55337687/85077836-cb0dbb00-b1f5-11ea-9b4b-f4cc9b70bd7d.png)
+
+
 The [suckless terminal (st)](https://st.suckless.org/) with some additional features that make it literally the best terminal emulator ever:
 
 ## Unique features (using dmenu)
