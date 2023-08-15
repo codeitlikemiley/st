@@ -1,4 +1,4 @@
-# Goldcoders's build of st - the simple (suckless) terminal
+# Codeitlikemiley's build of st - the simple (suckless) terminal
 
 ![pic-full-200619-0625-37](https://user-images.githubusercontent.com/55337687/85077836-cb0dbb00-b1f5-11ea-9b4b-f4cc9b70bd7d.png)
 
@@ -80,5 +80,5 @@ Note that some special characters may appear truncated if too wide. You might wa
 
 ## Contact
 
-- GoldCoders <goldcodersclub@gmail.com>
-- [https://goldcoders.online](https://goldcoders.online)
+- GoldCoders <codeitlikemiley@gmail.com>
+- [https://goldcoders.dev](https://goldcoders.dev)
